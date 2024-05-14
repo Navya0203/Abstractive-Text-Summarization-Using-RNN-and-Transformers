@@ -20,6 +20,12 @@ This repository contains implementations of abstractive text summarization using
 
 3. **T5 Model**
    - Utilizes a pre-trained Transformer model fine-tuned for summarization, benefiting from transfer learning to enhance summary quality efficiently.
+     
+4. **BART Model**
+   - Implements a denoising autoencoder using a bidirectional encoder to capture rich text features and a left-to-right autoregressive decoder for generating coherent text summaries.
+     
+5. **RNN with RL**
+   - Integrates Reinforcement Learning with a recurrent neural network, optimizing the summarization process through reward-based learning to improve the relevance.
 
 ## Setup and Usage
 
