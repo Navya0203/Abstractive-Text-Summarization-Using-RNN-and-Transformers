@@ -60,6 +60,6 @@ you will find 4 notebooks with 3 Transformer implementations, `Custom_Transforme
 
 ### Checkpoints
 
-As the model checkpoints were about 3GB we couldnt add them to the repo. Hence the link to acess them.
+As the model checkpoints were about 3GB we couldnt add them to the repo. Hence is the link to acess them.
 https://drive.google.com/drive/folders/18zteggWePbrnLoqO1J_YTrO7ABYEycwy?usp=sharing
 https://drive.google.com/drive/u/0/folders/1V8XbXvDASKm8ewP4pdcSTeHBas43HU3p
