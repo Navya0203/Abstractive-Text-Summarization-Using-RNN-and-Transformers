@@ -15,8 +15,8 @@ This repository contains implementations of abstractive text summarization using
 
 ## Models Overview
 
-1. **Transformer Model**
-   - Implements self-attention mechanisms to assess the importance of each word in the text, aiming to capture complex word relationships more effectively than RNNs.
+1. **Custom Transformer Model**
+   - Implements self-attention and multi-headed attention mechanism to assess the importance of each word in the text, aiming to capture complex word relationships more effectively than RNNs.
 
 3. **T5 Model**
    - Utilizes a pre-trained Transformer model fine-tuned for summarization, benefiting from transfer learning to enhance summary quality efficiently.
