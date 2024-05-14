@@ -31,7 +31,29 @@ This repository contains implementations of abstractive text summarization using
    - Integrates Reinforcement Learning with a recurrent neural network, optimizing the summarization process through reward-based learning to improve the relevance.
 
 ## Setup and Usage
+To set up this project locally, run the following commands:
 
-1. Clone the repository:
-   ```bash
-   git clone <repository-url>
+```bash
+git clone git@github.com:Navya0203/Abstractive-Text-Summarization-Using-RNN-and-Transformers.git
+cd Abstractive-Text-Summarization-Using-RNN-and-Transformers
+```
+
+### Setting Up the Data
+
+Prepare the dataset:
+- **Download the necessary data files.**
+   https://www.kaggle.com/datasets/gowrishankarp/newspaper-text-summarization-cnn-dailymail
+- **Place the folder into the DLProject/ folder on your Google Drive Home directory**
+
+### Running the Notebooks
+Navigate to the RNN directory for its implementations:
+```bash
+cd RNN
+```
+you will find two notebooks for RNN implementations `RNN_Model.ipynb` and `RL_RNN_Implementation.ipynb`
+
+Navigate to the Transformer directory for its implementations:
+```bash
+cd Transformer
+```
+you will find 4 notebooks with 3 Transformer implementations, `Custom_Transformer_Model.ipynb`, `T5_implementation.ipynb` and `Bart_Implementation.ipynb`. And another notebook `BART_T5_GRAPH.ipynb` pulls the graphs from your output log after running its implementation files.
